@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trình phát video đơn giản</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+    }
+    .video-container {
+      max-width: 800px;
+      width: 100%;
+      padding: 20px;
+    }
+    video {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="video-container">
+    <video controls>
+      <source src="https://drive.google.com/uc?export=download&id=FILE_ID" type="video/mp4">
+      Trình duyệt của bạn không hỗ trợ thẻ video.
+    </video>
+  </div>
+</body>
+</html>
